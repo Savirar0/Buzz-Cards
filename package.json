@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "html2pdf.js": "^0.10.2",
+    "react-helmet": "^6.1.0",
+    "react-native-gesture-handler": "^2.19.0",
+    "react-native-reanimated": "^3.15.2",
+    "react-navigation": "^5.0.0",
+    "react-router-dom": "^6.26.2"
+  }
+}

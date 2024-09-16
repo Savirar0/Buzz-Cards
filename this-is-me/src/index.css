@@ -1,0 +1,46 @@
+.card{
+  border: 2px solid hsl(91, 58%, 56%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  padding:10px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .cardimg{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .cardtitle{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: aqua;
+}
+
+.card .cardtxt{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: rgb(10, 48, 48);
+}
+
+.button{
+  background-color: chartreuse;
+  color:aliceblue;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+  
+}
+
+.button:hover {
+  background-color: black;
+  color: red;
+  transform: scale(1.1);
+}
